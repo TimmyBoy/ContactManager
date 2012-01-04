@@ -1,0 +1,28 @@
+C:\Users\Gegenleithner Ernst\Documents\Diplomarbeit\WPFTaskbarNotifier_src\WPFTaskbarNotifierExample\WPFTaskbarNotifier\bin\Debug\WPFTaskbarNotifier.dll
+C:\Users\Gegenleithner Ernst\Documents\Diplomarbeit\WPFTaskbarNotifier_src\WPFTaskbarNotifierExample\WPFTaskbarNotifier\bin\Debug\WPFTaskbarNotifier.pdb
+C:\Users\Gegenleithner Ernst\Documents\Diplomarbeit\WPFTaskbarNotifier_src\WPFTaskbarNotifierExample\WPFTaskbarNotifier\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Gegenleithner Ernst\Documents\Diplomarbeit\WPFTaskbarNotifier_src\WPFTaskbarNotifierExample\WPFTaskbarNotifier\obj\Debug\WPFTaskbarNotifier.Properties.Resources.resources
+C:\Users\Gegenleithner Ernst\Documents\Diplomarbeit\WPFTaskbarNotifier_src\WPFTaskbarNotifierExample\WPFTaskbarNotifier\obj\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Users\Gegenleithner Ernst\Documents\Diplomarbeit\WPFTaskbarNotifier_src\WPFTaskbarNotifierExample\WPFTaskbarNotifier\obj\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Users\Gegenleithner Ernst\Documents\Diplomarbeit\WPFTaskbarNotifier_src\WPFTaskbarNotifierExample\WPFTaskbarNotifier\obj\Debug\WPFTaskbarNotifier.dll
+C:\Users\Gegenleithner Ernst\Documents\Diplomarbeit\WPFTaskbarNotifier_src\WPFTaskbarNotifierExample\WPFTaskbarNotifier\obj\Debug\WPFTaskbarNotifier.pdb
+G:\WPFTaskbarNotifier_src\WPFTaskbarNotifierExample\WPFTaskbarNotifier\bin\Debug\WPFTaskbarNotifier.dll
+G:\WPFTaskbarNotifier_src\WPFTaskbarNotifierExample\WPFTaskbarNotifier\bin\Debug\WPFTaskbarNotifier.pdb
+G:\WPFTaskbarNotifier_src\WPFTaskbarNotifierExample\WPFTaskbarNotifier\obj\Debug\ResolveAssemblyReference.cache
+G:\WPFTaskbarNotifier_src\WPFTaskbarNotifierExample\WPFTaskbarNotifier\obj\Debug\WPFTaskbarNotifier.Properties.Resources.resources
+G:\WPFTaskbarNotifier_src\WPFTaskbarNotifierExample\WPFTaskbarNotifier\obj\Debug\GenerateResource-ResGen.read.1.tlog
+G:\WPFTaskbarNotifier_src\WPFTaskbarNotifierExample\WPFTaskbarNotifier\obj\Debug\GenerateResource.read.1.tlog
+G:\WPFTaskbarNotifier_src\WPFTaskbarNotifierExample\WPFTaskbarNotifier\obj\Debug\GenerateResource-ResGen.write.1.tlog
+G:\WPFTaskbarNotifier_src\WPFTaskbarNotifierExample\WPFTaskbarNotifier\obj\Debug\GenerateResource.write.1.tlog
+G:\WPFTaskbarNotifier_src\WPFTaskbarNotifierExample\WPFTaskbarNotifier\obj\Debug\WPFTaskbarNotifier.dll
+G:\WPFTaskbarNotifier_src\WPFTaskbarNotifierExample\WPFTaskbarNotifier\obj\Debug\WPFTaskbarNotifier.pdb
+G:\ContactManager\WPFTaskbarNotifier\bin\Debug\WPFTaskbarNotifier.dll
+G:\ContactManager\WPFTaskbarNotifier\bin\Debug\WPFTaskbarNotifier.pdb
+G:\ContactManager\WPFTaskbarNotifier\obj\Debug\ResolveAssemblyReference.cache
+G:\ContactManager\WPFTaskbarNotifier\obj\Debug\WPFTaskbarNotifier.Properties.Resources.resources
+G:\ContactManager\WPFTaskbarNotifier\obj\Debug\GenerateResource-ResGen.read.1.tlog
+G:\ContactManager\WPFTaskbarNotifier\obj\Debug\GenerateResource.read.1.tlog
+G:\ContactManager\WPFTaskbarNotifier\obj\Debug\GenerateResource-ResGen.write.1.tlog
+G:\ContactManager\WPFTaskbarNotifier\obj\Debug\GenerateResource.write.1.tlog
+G:\ContactManager\WPFTaskbarNotifier\obj\Debug\WPFTaskbarNotifier.dll
+G:\ContactManager\WPFTaskbarNotifier\obj\Debug\WPFTaskbarNotifier.pdb

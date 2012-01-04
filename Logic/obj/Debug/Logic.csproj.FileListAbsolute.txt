@@ -1,0 +1,40 @@
+C:\Users\Gegenleithner Ernst\Documents\Diplomarbeit\ContactManager\Logic\bin\Debug\Logic.dll
+C:\Users\Gegenleithner Ernst\Documents\Diplomarbeit\ContactManager\Logic\bin\Debug\Logic.pdb
+C:\Users\Gegenleithner Ernst\Documents\Diplomarbeit\ContactManager\Logic\bin\Debug\AsyncCtpLibrary.dll
+C:\Users\Gegenleithner Ernst\Documents\Diplomarbeit\ContactManager\Logic\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Gegenleithner Ernst\Documents\Diplomarbeit\ContactManager\Logic\bin\Debug\NLog.dll
+C:\Users\Gegenleithner Ernst\Documents\Diplomarbeit\ContactManager\Logic\bin\Debug\Raven.Abstractions.dll
+C:\Users\Gegenleithner Ernst\Documents\Diplomarbeit\ContactManager\Logic\bin\Debug\Raven.Client.Debug.dll
+C:\Users\Gegenleithner Ernst\Documents\Diplomarbeit\ContactManager\Logic\bin\Debug\Raven.Client.Lightweight.dll
+C:\Users\Gegenleithner Ernst\Documents\Diplomarbeit\ContactManager\Logic\bin\Debug\Raven.Client.MvcIntegration.dll
+C:\Users\Gegenleithner Ernst\Documents\Diplomarbeit\ContactManager\Logic\bin\Debug\Newtonsoft.Json.pdb
+C:\Users\Gegenleithner Ernst\Documents\Diplomarbeit\ContactManager\Logic\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Gegenleithner Ernst\Documents\Diplomarbeit\ContactManager\Logic\bin\Debug\NLog.xml
+C:\Users\Gegenleithner Ernst\Documents\Diplomarbeit\ContactManager\Logic\bin\Debug\Raven.Abstractions.pdb
+C:\Users\Gegenleithner Ernst\Documents\Diplomarbeit\ContactManager\Logic\bin\Debug\Raven.Client.Debug.pdb
+C:\Users\Gegenleithner Ernst\Documents\Diplomarbeit\ContactManager\Logic\bin\Debug\Raven.Client.Lightweight.pdb
+C:\Users\Gegenleithner Ernst\Documents\Diplomarbeit\ContactManager\Logic\bin\Debug\Raven.Client.Lightweight.xml
+C:\Users\Gegenleithner Ernst\Documents\Diplomarbeit\ContactManager\Logic\bin\Debug\Raven.Client.MvcIntegration.pdb
+C:\Users\Gegenleithner Ernst\Documents\Diplomarbeit\ContactManager\Logic\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Gegenleithner Ernst\Documents\Diplomarbeit\ContactManager\Logic\obj\Debug\Logic.dll
+C:\Users\Gegenleithner Ernst\Documents\Diplomarbeit\ContactManager\Logic\obj\Debug\Logic.pdb
+G:\ContactManager\Logic\bin\Debug\Logic.dll
+G:\ContactManager\Logic\bin\Debug\Logic.pdb
+G:\ContactManager\Logic\bin\Debug\AsyncCtpLibrary.dll
+G:\ContactManager\Logic\bin\Debug\Newtonsoft.Json.dll
+G:\ContactManager\Logic\bin\Debug\NLog.dll
+G:\ContactManager\Logic\bin\Debug\Raven.Abstractions.dll
+G:\ContactManager\Logic\bin\Debug\Raven.Client.Debug.dll
+G:\ContactManager\Logic\bin\Debug\Raven.Client.Lightweight.dll
+G:\ContactManager\Logic\bin\Debug\Raven.Client.MvcIntegration.dll
+G:\ContactManager\Logic\bin\Debug\Newtonsoft.Json.pdb
+G:\ContactManager\Logic\bin\Debug\Newtonsoft.Json.xml
+G:\ContactManager\Logic\bin\Debug\NLog.xml
+G:\ContactManager\Logic\bin\Debug\Raven.Abstractions.pdb
+G:\ContactManager\Logic\bin\Debug\Raven.Client.Debug.pdb
+G:\ContactManager\Logic\bin\Debug\Raven.Client.Lightweight.pdb
+G:\ContactManager\Logic\bin\Debug\Raven.Client.Lightweight.xml
+G:\ContactManager\Logic\bin\Debug\Raven.Client.MvcIntegration.pdb
+G:\ContactManager\Logic\obj\Debug\ResolveAssemblyReference.cache
+G:\ContactManager\Logic\obj\Debug\Logic.dll
+G:\ContactManager\Logic\obj\Debug\Logic.pdb

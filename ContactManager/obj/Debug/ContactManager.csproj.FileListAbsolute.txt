@@ -1,0 +1,66 @@
+C:\Users\Gegenleithner Ernst\Documents\Diplomarbeit\ContactManager\ContactManager\bin\ContactManager.dll
+C:\Users\Gegenleithner Ernst\Documents\Diplomarbeit\ContactManager\ContactManager\bin\ContactManager.pdb
+C:\Users\Gegenleithner Ernst\Documents\Diplomarbeit\ContactManager\ContactManager\bin\AsyncCtpLibrary.dll
+C:\Users\Gegenleithner Ernst\Documents\Diplomarbeit\ContactManager\ContactManager\bin\EntityFramework.dll
+C:\Users\Gegenleithner Ernst\Documents\Diplomarbeit\ContactManager\ContactManager\bin\Logic.dll
+C:\Users\Gegenleithner Ernst\Documents\Diplomarbeit\ContactManager\ContactManager\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Gegenleithner Ernst\Documents\Diplomarbeit\ContactManager\ContactManager\bin\Microsoft.Web.Optimization.dll
+C:\Users\Gegenleithner Ernst\Documents\Diplomarbeit\ContactManager\ContactManager\bin\Newtonsoft.Json.dll
+C:\Users\Gegenleithner Ernst\Documents\Diplomarbeit\ContactManager\ContactManager\bin\NLog.dll
+C:\Users\Gegenleithner Ernst\Documents\Diplomarbeit\ContactManager\ContactManager\bin\Raven.Abstractions.dll
+C:\Users\Gegenleithner Ernst\Documents\Diplomarbeit\ContactManager\ContactManager\bin\Raven.Client.Debug.dll
+C:\Users\Gegenleithner Ernst\Documents\Diplomarbeit\ContactManager\ContactManager\bin\Raven.Client.Lightweight.dll
+C:\Users\Gegenleithner Ernst\Documents\Diplomarbeit\ContactManager\ContactManager\bin\Raven.Client.MvcIntegration.dll
+C:\Users\Gegenleithner Ernst\Documents\Diplomarbeit\ContactManager\ContactManager\bin\System.Web.Helpers.dll
+C:\Users\Gegenleithner Ernst\Documents\Diplomarbeit\ContactManager\ContactManager\bin\System.Web.Mvc.dll
+C:\Users\Gegenleithner Ernst\Documents\Diplomarbeit\ContactManager\ContactManager\bin\System.Web.Providers.dll
+C:\Users\Gegenleithner Ernst\Documents\Diplomarbeit\ContactManager\ContactManager\bin\System.Web.Razor.dll
+C:\Users\Gegenleithner Ernst\Documents\Diplomarbeit\ContactManager\ContactManager\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Gegenleithner Ernst\Documents\Diplomarbeit\ContactManager\ContactManager\bin\System.Web.WebPages.dll
+C:\Users\Gegenleithner Ernst\Documents\Diplomarbeit\ContactManager\ContactManager\bin\System.Web.WebPages.Razor.dll
+C:\Users\Gegenleithner Ernst\Documents\Diplomarbeit\ContactManager\ContactManager\bin\Logic.pdb
+C:\Users\Gegenleithner Ernst\Documents\Diplomarbeit\ContactManager\ContactManager\bin\EntityFramework.xml
+C:\Users\Gegenleithner Ernst\Documents\Diplomarbeit\ContactManager\ContactManager\bin\Newtonsoft.Json.pdb
+C:\Users\Gegenleithner Ernst\Documents\Diplomarbeit\ContactManager\ContactManager\bin\Newtonsoft.Json.xml
+C:\Users\Gegenleithner Ernst\Documents\Diplomarbeit\ContactManager\ContactManager\bin\NLog.xml
+C:\Users\Gegenleithner Ernst\Documents\Diplomarbeit\ContactManager\ContactManager\bin\Raven.Abstractions.pdb
+C:\Users\Gegenleithner Ernst\Documents\Diplomarbeit\ContactManager\ContactManager\bin\Raven.Client.Debug.pdb
+C:\Users\Gegenleithner Ernst\Documents\Diplomarbeit\ContactManager\ContactManager\bin\Raven.Client.Lightweight.pdb
+C:\Users\Gegenleithner Ernst\Documents\Diplomarbeit\ContactManager\ContactManager\bin\Raven.Client.Lightweight.xml
+C:\Users\Gegenleithner Ernst\Documents\Diplomarbeit\ContactManager\ContactManager\bin\Raven.Client.MvcIntegration.pdb
+C:\Users\Gegenleithner Ernst\Documents\Diplomarbeit\ContactManager\ContactManager\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Gegenleithner Ernst\Documents\Diplomarbeit\ContactManager\ContactManager\obj\Debug\ContactManager.dll
+C:\Users\Gegenleithner Ernst\Documents\Diplomarbeit\ContactManager\ContactManager\obj\Debug\ContactManager.pdb
+G:\ContactManager\ContactManager\bin\ContactManager.dll
+G:\ContactManager\ContactManager\bin\ContactManager.pdb
+G:\ContactManager\ContactManager\bin\AsyncCtpLibrary.dll
+G:\ContactManager\ContactManager\bin\EntityFramework.dll
+G:\ContactManager\ContactManager\bin\Logic.dll
+G:\ContactManager\ContactManager\bin\Microsoft.Web.Infrastructure.dll
+G:\ContactManager\ContactManager\bin\Microsoft.Web.Optimization.dll
+G:\ContactManager\ContactManager\bin\Newtonsoft.Json.dll
+G:\ContactManager\ContactManager\bin\NLog.dll
+G:\ContactManager\ContactManager\bin\Raven.Abstractions.dll
+G:\ContactManager\ContactManager\bin\Raven.Client.Debug.dll
+G:\ContactManager\ContactManager\bin\Raven.Client.Lightweight.dll
+G:\ContactManager\ContactManager\bin\Raven.Client.MvcIntegration.dll
+G:\ContactManager\ContactManager\bin\System.Web.Helpers.dll
+G:\ContactManager\ContactManager\bin\System.Web.Mvc.dll
+G:\ContactManager\ContactManager\bin\System.Web.Providers.dll
+G:\ContactManager\ContactManager\bin\System.Web.Razor.dll
+G:\ContactManager\ContactManager\bin\System.Web.WebPages.Deployment.dll
+G:\ContactManager\ContactManager\bin\System.Web.WebPages.dll
+G:\ContactManager\ContactManager\bin\System.Web.WebPages.Razor.dll
+G:\ContactManager\ContactManager\bin\Logic.pdb
+G:\ContactManager\ContactManager\bin\EntityFramework.xml
+G:\ContactManager\ContactManager\bin\Newtonsoft.Json.pdb
+G:\ContactManager\ContactManager\bin\Newtonsoft.Json.xml
+G:\ContactManager\ContactManager\bin\NLog.xml
+G:\ContactManager\ContactManager\bin\Raven.Abstractions.pdb
+G:\ContactManager\ContactManager\bin\Raven.Client.Debug.pdb
+G:\ContactManager\ContactManager\bin\Raven.Client.Lightweight.pdb
+G:\ContactManager\ContactManager\bin\Raven.Client.Lightweight.xml
+G:\ContactManager\ContactManager\bin\Raven.Client.MvcIntegration.pdb
+G:\ContactManager\ContactManager\obj\Debug\ResolveAssemblyReference.cache
+G:\ContactManager\ContactManager\obj\Debug\ContactManager.dll
+G:\ContactManager\ContactManager\obj\Debug\ContactManager.pdb

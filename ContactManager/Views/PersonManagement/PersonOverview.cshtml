@@ -1,0 +1,96 @@
+﻿@model IEnumerable<Logic.Person>
+
+@{
+    ViewBag.Title = "PersonOverview";
+}
+
+<script language="javascript" type="text/javascript">
+
+    function UpdateTable() {
+        $.ajax({
+            url: '\UpdateList',
+            dataType: 'json',
+            data: "Searchtext=" + $("#Searchtext").val().toString(),
+            success: function () { window.location = "PersonOverview.cshtml"; }
+        });
+    }
+
+</script>
+
+<h2>PersonOverview</h2>
+<p>
+    @Html.ActionLink("Create New", "CreatePersonPage")
+</p>
+<form id="searchForm" method="post">
+		<fieldset>
+			<legend>Search</legend>			
+			<div class="editor-label">
+				<label for="Searchname">Suche</label>
+			</div>
+			<div class="editor-field">
+				<input id="Searchtext" name="Searchtext" type="text" value="" />		
+			</div>
+
+			<p>
+				<input type="button" value="Suche" onclick="UpdateTable()" />
+			</p>
+		</fieldset>
+	</form>
+<table>
+    <tr style= "background-color: #9370db">
+        <th>
+            @Html.DisplayNameFor(model => model.Firstname)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Surname)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Company)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Position)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Website)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.EMail)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TelephoneNumber)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Firstname)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Surname)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Company)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Position)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Website)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.EMail)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TelephoneNumber)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "EditPerson", new {  id=item.Id }) |
+            @Html.ActionLink("Details", "Details", new { id = item.Id }) |
+            @Html.ActionLink("Delete", "DeletePerson", new { id = item.Id })
+        </td>
+    </tr>
+}
+
+</table>

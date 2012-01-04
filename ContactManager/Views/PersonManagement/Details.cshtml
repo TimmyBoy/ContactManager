@@ -1,0 +1,122 @@
+﻿@model Logic.Person
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+<br />
+<fieldset>
+<style type="text/css">
+.verybig { font-size:300% }
+</style>
+<script type="text/javascript">
+    function editieren() {
+               document.getElementById("bigi").setAttribute= ="verybig"       
+                }
+            </script>
+    <legend>Person</legend>
+    <table>
+    <tr >
+    <td>
+        <div class="display-label" >
+            <b>@Html.DisplayNameFor(model => model.Firstname)</b>
+        </div>
+    </td>
+    <td>
+        <div class="display-field">
+            @Html.DisplayFor(model => model.Firstname)
+        </div>
+    </td>
+    <td></td>
+  </tr>
+  <tr> 
+  <td> 
+        <div class="display-label" >
+              <b>@Html.DisplayNameFor(model => model.Surname) </b>
+        </div>
+  </td>
+  <td> 
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Surname)
+    </div>
+ </td>
+ </tr>
+ <tr>
+    <td>
+        <div class="display-label" >
+             <b> @Html.DisplayNameFor(model => model.Company)</b>
+        </div>
+    </td>
+    <td>
+        <div class="display-field">
+            @Html.DisplayFor(model => model.Company)
+        </div>
+    </td>
+ </tr>
+ <tr>
+    <td>
+        <div class="display-label" >
+             <b> @Html.DisplayNameFor(model => model.Position)</b>
+        </div>
+    </td>
+    <td>
+        <div class="display-field">
+            @Html.DisplayFor(model => model.Position)
+        </div>
+    </td>
+ </tr>
+  <tr>
+    <td>
+        <div class="display-label" >
+             <b> @Html.DisplayNameFor(model => model.Website)</b>
+        </div>
+    </td>
+    <td>
+        <div class="display-field">
+            @Html.DisplayFor(model => model.Website)
+        </div>
+    </td>
+ </tr>
+   <tr>
+    <td>
+        <div class="display-label" >
+             <b> @Html.DisplayNameFor(model => model.EMail)</b>
+        </div>
+    </td>
+    <td>
+        <div class="display-field">
+            @Html.DisplayFor(model => model.EMail)
+        </div>
+    </td>
+ </tr>  
+ <tr>
+    <td>
+        <div class="display-label" >
+           <b> @Html.DisplayNameFor(model => model.TelephoneNumber)</b>
+        </div>
+    </td>
+    <td>
+        <div class="display-field">
+            @Html.DisplayFor(model => model.TelephoneNumber)
+        </div>
+    </td>
+ </tr>  
+ <tr>
+    <td>
+        <div class="display-label">
+             <b> @Html.DisplayNameFor(model => model.Notes)</b>
+        </div>
+    </td>
+    <td>
+        <div class="display-field">
+            @Html.DisplayFor(model => model.Notes)
+        </div>
+    </td>
+ </tr>  
+ </table>
+</fieldset>
+<p>
+    @Html.ActionLink("Edit", "EditPerson", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "PersonOverview")
+</p>
