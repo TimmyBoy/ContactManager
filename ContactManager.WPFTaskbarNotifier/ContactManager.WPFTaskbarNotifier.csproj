@@ -121,6 +121,10 @@
     <Resource Include="Resources\UFO.ico" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Logic\Logic.csproj">
+      <Project>{7E363878-044F-4439-9BF4-B0A09FB246A0}</Project>
+      <Name>Logic</Name>
+    </ProjectReference>
     <ProjectReference Include="..\WPFTaskbarNotifier\WPFTaskbarNotifier.csproj">
       <Project>{C807F74B-9C21-4A9F-8A60-C7D7AF7BCBBA}</Project>
       <Name>WPFTaskbarNotifier</Name>
