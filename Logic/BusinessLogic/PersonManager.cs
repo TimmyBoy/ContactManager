@@ -62,8 +62,9 @@ namespace Logic.BusinessLogic
                     return true;
                 }
             }
-            catch (Exception)
+            catch (Exception e)
             {
+                String ex = e.ToString();
                 return false;
             }
         }
@@ -133,15 +134,14 @@ namespace Logic.BusinessLogic
         public Person getPersonbyTelephonnumber()
         {
             Person result = new Person();
-            var ds = new DocumentStore() { Url = "http://localhost:8081" };
-           ds.Initialize();
-           using (var session = ds.OpenSession())
-           {
-               session.Query<Person>("Person_ByTelephonnumber");
-               result = session.Advanced.LuceneQuery<Person>("Person/ByTelephonnumber").WhereEquals("TelephoneNumber", "06642200920").SingleOrDefault();
-           }
-           return result;
-            
+            var ds = new DocumentStore() { Url = "http://localhost:8080" };
+            ds.Initialize();
+            using (var session = ds.OpenSession())
+            {
+                session.Query<Person>("Person_ByTelephonnumber");
+                result = session.Advanced.LuceneQuery<Person>("Person/ByTelephonnumber").WhereEquals("TelephoneNumber", "06642200920").SingleOrDefault();
+            }
+            return result;
         }
     }
 }
