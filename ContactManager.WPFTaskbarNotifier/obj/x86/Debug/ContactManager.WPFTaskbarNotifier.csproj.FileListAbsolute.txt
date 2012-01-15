@@ -44,3 +44,27 @@ C:\Users\Gegenleithner Ernst\Documents\Diplomarbeit\ContactManager\ContactManage
 C:\Users\Gegenleithner Ernst\Documents\Diplomarbeit\ContactManager\ContactManager.WPFTaskbarNotifier\obj\x86\Debug\GenerateResource.write.1.tlog
 C:\Users\Gegenleithner Ernst\Documents\Diplomarbeit\ContactManager\ContactManager.WPFTaskbarNotifier\bin\Debug\Logic.dll
 C:\Users\Gegenleithner Ernst\Documents\Diplomarbeit\ContactManager\ContactManager.WPFTaskbarNotifier\bin\Debug\Logic.pdb
+C:\sourcecode\ContactManager\ContactManager.WPFTaskbarNotifier\bin\Debug\ContactManager.WPFTaskbarNotifier.exe.config
+C:\sourcecode\ContactManager\ContactManager.WPFTaskbarNotifier\obj\x86\Debug\ContactManager.WPFTaskbarNotifier.exe
+C:\sourcecode\ContactManager\ContactManager.WPFTaskbarNotifier\obj\x86\Debug\ContactManager.WPFTaskbarNotifier.pdb
+C:\sourcecode\ContactManager\ContactManager.WPFTaskbarNotifier\bin\Debug\ContactManager.WPFTaskbarNotifier.exe
+C:\sourcecode\ContactManager\ContactManager.WPFTaskbarNotifier\bin\Debug\ContactManager.WPFTaskbarNotifier.pdb
+C:\sourcecode\ContactManager\ContactManager.WPFTaskbarNotifier\bin\Debug\Logic.dll
+C:\sourcecode\ContactManager\ContactManager.WPFTaskbarNotifier\bin\Debug\WPFTaskbarNotifier.dll
+C:\sourcecode\ContactManager\ContactManager.WPFTaskbarNotifier\bin\Debug\Logic.pdb
+C:\sourcecode\ContactManager\ContactManager.WPFTaskbarNotifier\bin\Debug\WPFTaskbarNotifier.pdb
+C:\sourcecode\ContactManager\ContactManager.WPFTaskbarNotifier\bin\Debug\Raven.Abstractions.pdb
+C:\sourcecode\ContactManager\ContactManager.WPFTaskbarNotifier\bin\Debug\Raven.Client.Debug.pdb
+C:\sourcecode\ContactManager\ContactManager.WPFTaskbarNotifier\bin\Debug\Raven.Client.Lightweight.pdb
+C:\sourcecode\ContactManager\ContactManager.WPFTaskbarNotifier\bin\Debug\Raven.Client.Lightweight.xml
+C:\sourcecode\ContactManager\ContactManager.WPFTaskbarNotifier\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\sourcecode\ContactManager\ContactManager.WPFTaskbarNotifier\obj\x86\Debug\ExampleTaskbarNotifier.baml
+C:\sourcecode\ContactManager\ContactManager.WPFTaskbarNotifier\obj\x86\Debug\Window1.baml
+C:\sourcecode\ContactManager\ContactManager.WPFTaskbarNotifier\obj\x86\Debug\ExampleTaskbarNotifier.g.cs
+C:\sourcecode\ContactManager\ContactManager.WPFTaskbarNotifier\obj\x86\Debug\Window1.g.cs
+C:\sourcecode\ContactManager\ContactManager.WPFTaskbarNotifier\obj\x86\Debug\App.g.cs
+C:\sourcecode\ContactManager\ContactManager.WPFTaskbarNotifier\obj\x86\Debug\ContactManager.WPFTaskbarNotifier_MarkupCompile.cache
+C:\sourcecode\ContactManager\ContactManager.WPFTaskbarNotifier\obj\x86\Debug\ContactManager.WPFTaskbarNotifier.g.resources
+C:\sourcecode\ContactManager\ContactManager.WPFTaskbarNotifier\obj\x86\Debug\ContactManager.WPFTaskbarNotifier.Properties.Resources.resources
+C:\sourcecode\ContactManager\ContactManager.WPFTaskbarNotifier\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\sourcecode\ContactManager\ContactManager.WPFTaskbarNotifier\obj\x86\Debug\GenerateResource.write.1.tlog

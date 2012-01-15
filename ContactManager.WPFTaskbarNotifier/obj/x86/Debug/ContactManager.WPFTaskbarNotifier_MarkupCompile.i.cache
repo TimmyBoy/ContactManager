@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-C:\Users\Gegenleithner Ernst\Documents\Diplomarbeit\ContactManager\ContactManager.WPFTaskbarNotifier\obj\x86\Debug\
+C:\sourcecode\ContactManager\ContactManager.WPFTaskbarNotifier\obj\x86\Debug\
 ContactManager.WPFTaskbarNotifier
 none
 false
 DEBUG;TRACE
-C:\Users\Gegenleithner Ernst\Documents\Diplomarbeit\ContactManager\ContactManager.WPFTaskbarNotifier\App.xaml
+C:\sourcecode\ContactManager\ContactManager.WPFTaskbarNotifier\App.xaml
 2-433309627
 
-7293349292
-181117702085
+7-799480653
+181217676165
 ExampleTaskbarNotifier.xaml;Window1.xaml;
 
 False

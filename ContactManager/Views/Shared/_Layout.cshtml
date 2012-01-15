@@ -19,29 +19,7 @@
                 </div>
                 <div class="float-right">
                     <section id="login">
-                        <table>
-                            <tr>
-                                <td>
-                                    @Html.LabelFor(m => m.UserName)
-                                </td>
-                                <td>
-                                    @Html.LabelFor(m => m.Password)
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    @Html.TextBoxFor(m => m.UserName)
-                                    @Html.ValidationMessageFor(m => m.UserName)
-                                </td>
-                                <td>
-                                    @Html.PasswordFor(m => m.Password)
-                                    @Html.ValidationMessageFor(m => m.Password)
-                                </td>
-                                 <td>
-                                     <input type="submit" value="Log On" title="Log On" />
-                                </td>
-                            </tr>
-                         </table>
+                        @Html.Partial("_LogOnPartial")
                     </section>
                     @if (Request.IsAuthenticated)
                     {
@@ -57,92 +35,11 @@
             </div>
         </header>
         <div id="body">
-          <!--  @RenderSection("featured", false)
+           @RenderSection("featured", false)
             <section class="content-wrapper main-content clear-fix">
                 @RenderBody()
-            </section>-->
-            @model Logic.Entities.Employee
+            </section>
            
-        <table border="0" width="100%" cellspacing="0" cellpadding="5" summary="Layout">
-             <tr>
-                  <td width="60%" ><!--bgcolor="yellow"-->
-                    <a><img src="../../Images/menschenkette.png" /></a>
-                  <td width="40%">
-                    <font size="+6" color="003366">Register</font>
-                    <table>
-                        <tr>
-                            <td>
-                                @Html.LabelFor(m => m.Firstname)
-                            </td>
-                            <td>
-                                 @Html.TextBoxFor(m => m.Firstname)
-                                 @Html.ValidationMessageFor(m => m.Firstname)
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                @Html.LabelFor(m => m.Surname)
-                            </td>
-                            <td>
-                                @Html.TextBoxFor(m => m.Surname)
-                                @Html.ValidationMessageFor(m => m.Surname)
-                            </td>
-                        </tr>
-                         <tr>
-                            <td>
-                                @Html.LabelFor(m => m.UserName)
-                            </td>
-                            <td>
-                                @Html.TextBoxFor(m => m.UserName)
-                                @Html.ValidationMessageFor(m => m.UserName)
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                @Html.LabelFor(m => m.Password)
-                            </td>
-                            <td>
-                                @Html.PasswordFor(m => m.Password)
-                                @Html.ValidationMessageFor(m => m.Password)
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                @Html.LabelFor(m => m.ConfirmPassword)
-                            </td>
-                            <td>
-                                @Html.PasswordFor(m => m.ConfirmPassword)
-                                @Html.ValidationMessageFor(m => m.ConfirmPassword)
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                @Html.LabelFor(m => m.TelephoneNumber)
-                            </td>
-                            <td>
-                                @Html.PasswordFor(m => m.TelephoneNumber)
-                                @Html.ValidationMessageFor(m => m.TelephoneNumber)
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                @Html.LabelFor(m => m.Email)
-                            </td>
-                            <td>
-                                @Html.TextBoxFor(m => m.Email)
-                                @Html.ValidationMessageFor(m => m.Email)
-                            </td>
-                        </tr>
-                        <tr>
-                            <td></td>
-                            <td>
-                                <input type="submit" value="Log On" title="Register" />
-                            </td>
-                        </tr>
-                    </table>
-                  </td>
-             </tr>
-        </table>
    
         </div>
         <footer>

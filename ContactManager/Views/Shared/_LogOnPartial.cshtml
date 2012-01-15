@@ -1,13 +1,39 @@
-﻿@if (Request.IsAuthenticated) {
+﻿@model Logic.Entities.Employee
+@if (Request.IsAuthenticated) {
     <!--<p>
         Hello, @Html.ActionLink(User.Identity.Name, "ChangePassword", "Account", null, new { @class = "username" })!
         @Html.ActionLink("Log Off", "LogOff", "Account")
     </p>-->
 } else {
     <ul>
+        <li>
+            <table>
+                <tr>
+                    <td>
+                        @Html.LabelFor(m => m.UserName)
+                    </td>
+                    <td>
+                        @Html.LabelFor(m => m.Password)
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        @Html.TextBoxFor(m => m.UserName)
+                        @Html.ValidationMessageFor(m => m.UserName)
+                    </td>
+                    <td>
+                        @Html.PasswordFor(m => m.Password)
+                        @Html.ValidationMessageFor(m => m.Password)
+                    </td>
+                    <td>
+                        <input type="submit" value="Log On" title="Log On" />
+                    </td>
+                </tr>
+            </table>
+        </li>
         <!--<li>@Html.ActionLink("Register", "Register", "Account", routeValues: null, htmlAttributes: new { id = "registerLink", data_dialog_title = "Registration" })</li>
-        <li>@Html.ActionLink("Log on", "LogOn", "Account", routeValues: null, htmlAttributes: new { id = "logonLink", data_dialog_title = "Identification" })</li>-->
-        @Html.ActionLink("Register", "Register", "Account", routeValues: null, htmlAttributes: new { id = "registerLink", data_dialog_title = "Registration" })
-        @Html.ActionLink("Log on", "LogOn", "Account", routeValues: null, htmlAttributes: new { id = "logonLink", data_dialog_title = "Identification" })
+        <li>@Html.ActionLink("Log on", "LogOn", "Account", routeValues: null, htmlAttributes: new { id = "logonLink", data_dialog_title = "Identification" })</li>
+        <!--@Html.ActionLink("Register", "Register", "Account", routeValues: null, htmlAttributes: new { id = "registerLink", data_dialog_title = "Registration" })
+        @Html.ActionLink("Log on", "LogOn", "Account", routeValues: null, htmlAttributes: new { id = "logonLink", data_dialog_title = "Identification" })-->
     </ul>
 }
