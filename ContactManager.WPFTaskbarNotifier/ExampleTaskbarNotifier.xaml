@@ -5,7 +5,8 @@
     Title="WPF Taskbar Notifier Example" Height="160"  Width="300"
     x:Name="ThisControl"
     >
-  <tn:TaskbarNotifier.Resources>
+    
+    <tn:TaskbarNotifier.Resources>
 
     <DataTemplate x:Key="ItemsTemplate">
       <Grid>
@@ -25,7 +26,26 @@
   <Border BorderThickness="1" BorderBrush="#fff1efe2">
     <Border BorderThickness="1" BorderBrush="#ffffffff">
       <Border BorderThickness="1" BorderBrush="#ffd4d0c8">
-        <Grid Margin="5,5,5,5">
+                <Grid>
+                    <Grid.RowDefinitions >
+                        <RowDefinition  Height="*"/>
+                    </Grid.RowDefinitions>
+
+                    <!-- The following NotifyIcon is not really needed for the Taskbar Notifier, but compliments it nicely. 
+         The NotifyIcon wrapper was included in this project with permission from Mariano Omar Rodriguez
+         http://weblogs.asp.net/marianor/archive/2007/10/15/a-wpf-wrapper-around-windows-form-notifyicon.aspx
+      -->
+                    <tn:NotifyIcon x:Name="NotifyIcon" Text="Example Notifier" Icon="Resources/UFO.ico" MouseDoubleClick="NotifyIcon_DoubleClick">
+                        <tn:NotifyIcon.ContextMenu>
+                            <ContextMenu>
+                                <MenuItem Header="Open" Click="NotifyIconOpen_Click" />
+                                <!--MenuItem Header="Configure..." Click="NotifyIconConfigure_Click" /-->
+                                <Separator/>
+                                <MenuItem Header="Exit" Click="NotifyIconExit_Click" />
+                            </ContextMenu>
+                        </tn:NotifyIcon.ContextMenu>
+                    </tn:NotifyIcon>
+                    <Grid Margin="5,5,5,5">
           <Grid.RowDefinitions>
           
             <RowDefinition Height="40" />
@@ -38,8 +58,8 @@
 			<ColumnDefinition Width="Auto"/>
 			<ColumnDefinition />
 		  </Grid.ColumnDefinitions>
-          
-          <Label x:Name="TitleText" Grid.Row="0" Grid.ColumnSpan="3" Margin="8,0,8,0" FontSize="25" FontWeight="Bold" Content="EXAMPLE" >
+
+                    <Label x:Name="TitleText" Grid.Row="0" Grid.ColumnSpan="3" Margin="8,0,8,0" FontSize="25" FontWeight="Bold" Content="ContactManager" >
             <Label.Foreground>
               <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                 <GradientStop Color="Blue" Offset="0"/>
@@ -109,17 +129,17 @@
           <TextBlock  Text="{Binding NotifyContent[0].Title, ElementName=ThisControl}" />
           <TextBlock Text=": " />
                 </StackPanel>
-        <Label Grid.Column="1" Grid.Row="2" Margin="0,-1,0,0" HorizontalAlignment="Left" ToolTip="Click to open">
-          <Hyperlink Click="Item_Click" Tag="{Binding}">
+        <Label Grid.Column="2" Grid.Row="2" Margin="0,-1,0,0" HorizontalAlignment="Left" ToolTip="Click to open">
+          <Hyperlink Click="Item_Click" Tag="{Binding NotifyContent[0], ElementName=ThisControl}">
             <TextBlock Text="{Binding NotifyContent[0].Message, ElementName=ThisControl}" TextWrapping="Wrap" />
           </Hyperlink>
         </Label>
-         <Label Grid.Column="2" Grid.Row="2" Margin="0,0,0,0" HorizontalAlignment="Left" ToolTip="Click to open">          
+         <Label Grid.Column="1" Grid.Row="2" Margin="0,0,0,0" HorizontalAlignment="Left" ToolTip="Click to open">          
             <TextBlock Text="{Binding NotifyContent[0].Message2, ElementName=ThisControl}" TextWrapping="Wrap" />
          </Label>
 
         </Grid>
-
+</Grid>
       </Border>
     </Border>
   </Border>

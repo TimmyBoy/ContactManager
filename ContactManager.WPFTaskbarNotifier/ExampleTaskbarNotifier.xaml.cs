@@ -13,6 +13,8 @@ using System.ComponentModel;
 using System.Collections.ObjectModel;
 using WPFTaskbarNotifier;
 using System.Threading;
+using Logic.BusinessLogic;
+using Logic;
 
 namespace WPFTaskbarNotifierExample
 {
@@ -54,21 +56,27 @@ namespace WPFTaskbarNotifierExample
     /// </summary>
     public partial class ExampleTaskbarNotifier : TaskbarNotifier
     {
+        PersonManager personManager = new PersonManager();
         public ExampleTaskbarNotifier()
         {
-            
+            Person actualCall = new Person();
+            int ide = 9;
+            bool a = personManager.Delete(ide);
+            String name = actualCall.Firstname + " " + actualCall.Surname;
             //Thread t = new Thread(getPerson);
             //t.Start();
             InitializeComponent();
             this.Show();
-            this.NotifyContent.Add(new NotifyObject("Details", "Telephonnummer","0664345678"));
+            this.NotifyContent.Add(new NotifyObject("Details", name ,actualCall.TelephoneNumber));
             this.Notify();
             //Thread.Sleep(3000);
             
         }
+       
 
         public void getPerson()
         {
+
             //this.Show();
             //this.NotifyContent.Add(new NotifyObject("test", "Stefanie"));
             //this.Notify();
@@ -129,6 +137,34 @@ namespace WPFTaskbarNotifierExample
         private void HideButton_Click(object sender, EventArgs e)
         {
             this.ForceHidden();
+        }
+
+        private void NotifyIcon_DoubleClick(object sender, MouseButtonEventArgs e)
+        {
+            if (e.ChangedButton == MouseButton.Left)
+            {
+                // Open the TaskbarNotifier
+                this.Notify();
+            }
+        }
+
+        private void NotifyIconOpen_Click(object sender, RoutedEventArgs e)
+        {
+            // Open the TaskbarNotifier
+            this.Notify();
+        }
+
+        /*private void NotifyIconConfigure_Click(object sender, RoutedEventArgs e)
+        {
+            // Show this window
+            this.Show();
+            this.Activate();
+        }*/
+
+        private void NotifyIconExit_Click(object sender, RoutedEventArgs e)
+        {
+            // Close this window.
+            this.Close();
         }
     }
 }
